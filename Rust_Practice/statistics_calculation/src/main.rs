@@ -5,16 +5,16 @@ fn main() {
     let mut numbers_clone = numbers.clone();
     let median = calculate_median(&mut numbers_clone);
     // let mode = calculate_mode(&numbers);
-    // let variance = calculate_variance(&numbers, mean);
-    // let std_dev = calculate_standard_deviation(variance);
-    // let range = calculate_range(&numbers);
+    let variance = calculate_variance(&numbers, mean);
+    let std_dev = calculate_standard_deviation(variance);
+    let range = calculate_range(&numbers);
     
     println!("Mean: {}", mean);
     println!("Median: {}", median);
     // println!("Mode: {:?}", mode);
-    // println!("Variance: {}", variance);
-    // println!("Standard Deviation: {}", std_dev);
-    // println!("Range: {}", range);
+    println!("Variance: {}", variance);
+    println!("Standard Deviation: {}", std_dev);
+    println!("Range: {}", range);
     
 }
 
@@ -46,16 +46,16 @@ fn calculate_median(numbers: &mut [f64]) -> f64 {
 //         .map(|(num, _)| num)
 //         .collect()
 // }
-// fn calculate_variance(numbers: &[f64], mean: f64) -> f64 {
-//     let sum_of_squares: f64 = numbers.iter().map(|&x| (x - mean).powi(2)).sum();
-//     sum_of_squares / numbers.len() as f64
-// }
-// fn calculate_standard_deviation(variance: f64) -> f64 {
-//     variance.sqrt()
-// }
-// fn calculate_range(numbers: &[f64]) -> f64 {
-//     let min = numbers.iter().cloned().fold(f64::INFINITY, f64::min);
-//     let max = numbers.iter().cloned().fold(f64::NEG_INFINITY, f64::max);
-//     max - min
-// }
+fn calculate_variance(numbers: &[f64], mean: f64) -> f64 {
+    let sum_of_squares: f64 = numbers.iter().map(|&x| (x - mean).powi(2)).sum();
+    sum_of_squares / numbers.len() as f64
+}
+fn calculate_standard_deviation(variance: f64) -> f64 {
+    variance.sqrt()
+}
+fn calculate_range(numbers: &[f64]) -> f64 {
+    let min = numbers.iter().cloned().fold(f64::INFINITY, f64::min);
+    let max = numbers.iter().cloned().fold(f64::NEG_INFINITY, f64::max);
+    max - min
+}
 
