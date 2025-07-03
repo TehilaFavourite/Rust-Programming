@@ -2,9 +2,13 @@ fn main() {
     apply_to_jobs(35, "Rust Developer");
     println!("is_even(8) -> {}", is_even(8));
     println!("is_even(9) -> {}", is_even(9));
+    println!("{}", is_even(30));
     println!("alphabets(\"aardvark\") -> {:?}", alphabets("aardvark"));
     println!("alphabets(\"zoology\") -> {:?}", alphabets("zoology"));
     println!("alphabets(\"zebra\") -> {:?}", alphabets("zebra"));
+    println!("more_alphabets(\"Abuja\") -> {:?}", more_alphabets("Abuja"));
+    println!("more_alphabets(\"book\") -> {:?}", more_alphabets("book"));
+    println!("more_alphabets(\"rust\") -> {:?}", more_alphabets("rust"));
 }
 
 fn apply_to_jobs(number: i32, title: &str) {
@@ -17,6 +21,12 @@ fn is_even(number: i32) -> bool {
 
 fn alphabets(text: &str) -> (bool, bool) {
     (text.contains('a'), text.contains('z'))
+}
+
+fn more_alphabets(text: &str) -> (bool, bool) {
+    let a = text.contains("a");
+    let b = text.contains("b");
+    (a, b)
 }
 
 // fn is_even(number: i32) -> bool {
