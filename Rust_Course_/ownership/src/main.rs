@@ -40,7 +40,20 @@ fn main() {
 
     // **************************************************
     // moves and ownership
-    
+    let person = String::from("Alice");
+    let genius = person;
+    println!("person is {person}");
+    println!("genius is {genius}");
+    // this does not implement the copy trait like the int example because the string type is a complex type.
+    // complex types are stored on the heap and are not copied when assigned to a new variable.
+    // the variable that was original owner will be invalidated and the new variable will be the new owner.
+    // from the above, the genius variable is a new owner of the string "Alice".
+    // the person variable is no longer valid here and is dropped.
+    // the genius variable is now the owner of the string "Alice".
+    // we can only have one owner of a value at a time.
+    // we cannot use the person variable here because it is no longer valid.
+    // we can only use the genius variable here because it is the owner of the string "Alice".
+
 
 
 
