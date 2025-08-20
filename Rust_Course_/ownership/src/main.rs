@@ -65,7 +65,18 @@ fn main() {
     // the drop function is used to explicitly drop a variable.
     // the drop function is used to explicitly drop a variable.
 
+    // **************************************************
+    // the clone method
+    let boy = String::from("Bob");
+    let male = boy.clone();
+    println!("boy is {boy}, male is {male}");
+    // in the above, there is no transfer of ownership and no move. 
+    // there are two owners of the string "Bob", boy and male.
+
+    // **************************************************
     
+
+
 
 
 
