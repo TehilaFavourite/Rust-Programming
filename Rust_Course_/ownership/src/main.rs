@@ -41,8 +41,8 @@ fn main() {
     // **************************************************
     // moves and ownership
     let person = String::from("Alice");
-    let genius = person;
     println!("person is {person}");
+    let genius = person;
     println!("genius is {genius}");
     // this does not implement the copy trait like the int example because the string type is a complex type.
     // complex types are stored on the heap and are not copied when assigned to a new variable.
@@ -58,7 +58,7 @@ fn main() {
     // the drop function
     let girl = String::from("Doris");
     drop(girl);
-    println!("girl is {girl}");
+    // println!("girl is {girl}");
     // from the above, the drop function is used to explicitly drop a variable.
     
 
@@ -81,6 +81,10 @@ fn main() {
 
 
     // **************************************************
+    // the dereference operator
+    let stack_value = 2;
+    let integer_reference = &stack_value;
+    println!("{}", *integer_reference);
     
 
 
