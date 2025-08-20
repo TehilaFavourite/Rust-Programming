@@ -99,10 +99,12 @@ fn main() {
     let oranges = String::from("oranges");
     print_my_val(oranges);
 
-
-
-
+    let burger = String::from("burger");
+    add_fries(burger);
 }
+
+// **************************************************
+// function parameters
 
 fn print_my_value(value: i32) {
     println!("you have {value} apples")
@@ -110,4 +112,12 @@ fn print_my_value(value: i32) {
 
 fn print_my_val(value: String) {
     println!("you have {value} as your fruit")
+}
+
+// **************************************************
+// mutable parameters
+
+fn add_fries(mut meal: String) {
+    meal.push_str(" and fries");
+    println!("{meal}")
 }
