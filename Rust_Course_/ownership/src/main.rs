@@ -60,10 +60,7 @@ fn main() {
     drop(girl);
     println!("girl is {girl}");
     // from the above, the drop function is used to explicitly drop a variable.
-    // the drop function takes a variable as an argument.
-    // the drop function does not return a value.
-    // the drop function is used to explicitly drop a variable.
-    // the drop function is used to explicitly drop a variable.
+    
 
     // **************************************************
     // the clone method
@@ -74,7 +71,18 @@ fn main() {
     // there are two owners of the string "Bob", boy and male.
 
     // **************************************************
+    // References and borrowing
+    let my_stack_value = 2;
+    let my_integer_reference = &my_stack_value;
+
+
+    let my_heap_value = String::from("heap value");
+    let my_heap_reference = &my_heap_value;
+
+
+    // **************************************************
     
+
 
 
 
