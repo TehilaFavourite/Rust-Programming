@@ -1,5 +1,4 @@
 fn main() {
-
     //scope and ownersip
     let age = 33; // age here is the owner of the value 33
     {
@@ -17,7 +16,7 @@ fn main() {
     // integers are simple values and are copies, not moved.
     // they implement the copy trait, which means they are copied when assigned to a new variable.
     // we now have two owners of the value 2025, time and year.
-    
+
     // **************************************************
     // string type stored on the heap
     let food = "pasta"; // this is a string literal, which is a string stored in the binary.
@@ -36,7 +35,6 @@ fn main() {
     // the push_str method takes a string slice as an argument.
     // the push_str method does not take ownership of the string slice.
     // the push_str method does not return a value.
-    
 
     // **************************************************
     // moves and ownership
@@ -60,14 +58,13 @@ fn main() {
     drop(girl);
     // println!("girl is {girl}");
     // from the above, the drop function is used to explicitly drop a variable.
-    
 
     // **************************************************
     // the clone method
     let boy = String::from("Bob");
     let male = boy.clone();
     println!("boy is {boy}, male is {male}");
-    // in the above, there is no transfer of ownership and no move. 
+    // in the above, there is no transfer of ownership and no move.
     // there are two owners of the string "Bob", boy and male.
 
     // **************************************************
@@ -75,23 +72,42 @@ fn main() {
     let my_stack_value = 2;
     let my_integer_reference = &my_stack_value;
 
-
     let my_heap_value = String::from("heap value");
     let my_heap_reference = &my_heap_value;
-
 
     // **************************************************
     // the dereference operator
     let stack_value = 2;
     let integer_reference = &stack_value;
     println!("{}", *integer_reference);
-    
+
+    // **************************************************
+    // String, &String, Str, &Str
+    let ice_cream = "cookies and cream"; // this is an str. 
+    // like the above, any piece id text you declare in double quotes is going to be encoded or embedded directly into the the binary executable
+
+    // **************************************************
+    // the copy trait with references
+    let coffee = "nescafe";
+    let breakfast = coffee;
+
+    // **************************************************
+    //Ownership and function parameters
+    let apples = 6;
+    print_my_value(apples);
+
+    let oranges = String::from("oranges");
+    print_my_val(oranges);
 
 
 
 
+}
 
+fn print_my_value(value: i32) {
+    println!("you have {value} apples")
+}
 
-
-
+fn print_my_val(value: String) {
+    println!("you have {value} as your fruit")
 }
