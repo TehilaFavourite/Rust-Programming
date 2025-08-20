@@ -101,6 +101,9 @@ fn main() {
 
     let burger = String::from("burger");
     add_fries(burger);
+
+    let cake = bake_cake();
+    println!("I now have a {cake} cake");
 }
 
 // **************************************************
@@ -120,4 +123,10 @@ fn print_my_val(value: String) {
 fn add_fries(mut meal: String) {
     meal.push_str(" and fries");
     println!("{meal}")
+}
+
+// **************************************************
+fn bake_cake() -> String {
+    let cake = String::from("vanilla");
+    return cake;
 }
