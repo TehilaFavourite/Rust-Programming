@@ -54,6 +54,19 @@ fn main() {
     // we cannot use the person variable here because it is no longer valid.
     // we can only use the genius variable here because it is the owner of the string "Alice".
 
+    // **************************************************
+    // the drop function
+    let girl = String::from("Doris");
+    drop(girl);
+    println!("girl is {girl}");
+    // from the above, the drop function is used to explicitly drop a variable.
+    // the drop function takes a variable as an argument.
+    // the drop function does not return a value.
+    // the drop function is used to explicitly drop a variable.
+    // the drop function is used to explicitly drop a variable.
+
+    
+
 
 
 
