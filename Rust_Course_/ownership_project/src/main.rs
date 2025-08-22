@@ -17,10 +17,10 @@ fn main() {
     eat_meal(dinner);
     // println!("sushi: {}", dinner); // ❌ error: sushi was moved
 
-    let mut dinner = String::from("Salmon");
-    new_eat_meal(&mut dinner);
+    let dinner = String::from("Salmon");
+    let fish = new_eat_meal(dinner);            
 
-    println!("After eat_meal, sushi is: '{}'", dinner); // prints empty string
+    println!("After eat_meal, sushi is: '{}'", fish); // prints empty string
 
     
 
@@ -46,9 +46,10 @@ fn eat_meal(mut meal: String) {
 // When the function ends, meal goes out of scope and Rust drops it, freeing the memory.
 }
 
-fn new_eat_meal(meal: &mut String) {
+fn new_eat_meal(mut meal: String) -> String {
     meal.clear();
     println!("Inside eat_meal, meal is now: '{}'", meal);
+    meal
 
 //     Ownership of "Salmon" stays with another_dinner.
 
