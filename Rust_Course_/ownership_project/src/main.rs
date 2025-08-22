@@ -10,17 +10,17 @@ fn main() {
     println!("{dinner} for dinner");
 
 
-    let new_sushi = String::from("Salmon");
-    let new_dinner = new_sushi;
-    // println!("{new_sushi} for dinner");
-    println!("{new_dinner} for dinner");
-    eat_meal(new_dinner);
-    // println!("sushi: {}", new_dinner); // ❌ error: sushi was moved
+    let sushi = String::from("Salmon");
+    let dinner = sushi;
+    // println!("{sushi} for dinner");
+    println!("{dinner} for dinner");
+    eat_meal(dinner);
+    // println!("sushi: {}", dinner); // ❌ error: sushi was moved
 
-    let mut another_dinner = String::from("Salmon");
-    new_eat_meal(&mut another_dinner);
+    let mut dinner = String::from("Salmon");
+    new_eat_meal(&mut dinner);
 
-    println!("After eat_meal, sushi is: '{}'", another_dinner); // prints empty string
+    println!("After eat_meal, sushi is: '{}'", dinner); // prints empty string
 
     
 
