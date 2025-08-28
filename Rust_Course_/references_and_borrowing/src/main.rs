@@ -25,8 +25,13 @@ fn main() {
     let ref1 = &mut car;
     ref1.push_str(" and silver");
     let ref2 = &car; 
-    // println!("{ref1} and {ref2} "); this will  give an error `immutable borrow occurs here`
     println!("{ref2} ");
+
+     //****************************************** Ownership with mutable and immutable reference */
+    let coffee = String::from("Mocha");
+    let a = &coffee;
+    let b = a;
+    println!("{a} and {b}");
 
 }
 
