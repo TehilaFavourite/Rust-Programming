@@ -33,6 +33,26 @@ fn main() {
     let b = a;
     println!("{a} and {b}");
 
+    //****************************************** Ownership with arrays and tuples */
+    let registrations = [true, false, true];
+    let first = registrations[0];
+    println!("{first} and {registrations:?}");
+
+    let languages = [String::from("Rust"), String::from("Solidity")];
+    let first = languages[0].clone();
+    let second = &languages[1];
+    println!("{first} and {second} and {languages:?}");
+
+    let registrations = (true, false, true);
+    let first = registrations.0;
+    println!("{first} and {registrations:?}");
+
+    let languages = (String::from("Rust"), String::from("Solidity"));
+    let first = languages.0.clone();
+    let second = &languages.1;
+    println!("{first} and {second} and {languages:?}");
+
+
 }
 
 fn add_flour(mut meal: String) -> String {
