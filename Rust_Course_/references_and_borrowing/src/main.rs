@@ -8,7 +8,12 @@ fn main() {
     let mut current_meal = String::new();
     add_flour2(&mut current_meal);
 
-    
+    //****************************************** Multiple Immutable references */
+    let car = String::from("red");
+    let ref1 = &car;
+    let ref2 = ref1;
+    println!("these are immutable references: {ref1} and {ref2} and {} ", &car);
+
 }
 
 fn add_flour(mut meal: String) -> String {
