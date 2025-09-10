@@ -36,6 +36,10 @@ fn main() {
     /* string slices as a function parameter */
     do_hero_stuff("The incredible Hulk");
 
+    /* Array slices */
+    let values = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
+    let my_slice = &values[0..3];
+    println!("The my_slice is: {my_slice:?}");
 
 }
 
