@@ -33,4 +33,14 @@ fn main() {
     let full_push =&repo[..];
     println!("The full push is: {full_push}");
 
+    /* string slices as a function parameter */
+    do_hero_stuff("The incredible Hulk");
+
+
+}
+
+/* string slices as a function parameter */
+fn do_hero_stuff(hero_name: &str) {
+    println!("{hero_name} has saved the day!");
+
 }
