@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\OneDrive\Desktop\P\ workspace\Rust-Programming\Rust_Course_\slices_project\target\debug\slices_project.exe: C:\Users\NetzenceBD\OneDrive\Desktop\P\ workspace\Rust-Programming\Rust_Course_\slices_project\src\main.rs
