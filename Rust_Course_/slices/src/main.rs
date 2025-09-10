@@ -45,6 +45,14 @@ fn main() {
     let regular_ref = &values;
     print_length(regular_ref);
     let slice_ref = &values[..3];
+
+    /* Mutable array slices */
+    let mut my_array = [1, 2, 3, 4, 5];
+    println!("this is my array: {my_array:?}");
+    let my_slice = &mut my_array[..4];
+    my_slice[0] = 1000;
+    println!("this is my slice: {my_slice:?}");
+    println!("this is my array: {my_array:?}");
 }
 
 /* string slices as a function parameter */
