@@ -39,12 +39,21 @@ fn main() {
     /* Array slices */
     let values = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20];
     let my_slice = &values[0..3];
-    println!("The my_slice is: {my_slice:?}");
+    println!("my_slice is: {my_slice:?}");
 
+    /* Deref coericon with slices */
+    let regular_ref = &values;
+    print_length(regular_ref);
+    let slice_ref = &values[..3];
 }
 
 /* string slices as a function parameter */
 fn do_hero_stuff(hero_name: &str) {
     println!("{hero_name} has saved the day!");
 
+}
+
+/* Deref coericon with slices */
+fn print_length(reference: &[i32]) {
+    println!("The length of the reference is: {}", reference.len());
 }
