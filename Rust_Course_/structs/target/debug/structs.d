@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\OneDrive\Desktop\P\ workspace\Rust-Programming\Rust_Course_\structs\target\debug\structs.exe: C:\Users\NetzenceBD\OneDrive\Desktop\P\ workspace\Rust-Programming\Rust_Course_\structs\src\main.rs
