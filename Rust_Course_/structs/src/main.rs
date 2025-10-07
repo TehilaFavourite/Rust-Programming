@@ -54,8 +54,47 @@ fn main() {
         height: 1.65,
         is_happy: true
     };
-    println!("{:?}", tehila);
+    // println!("{:?}", tehila);
     tehila.new();
+
+    let tehila2 = Tehila {
+        age: 25,
+        height: 1.70,
+        is_happy: false
+    };
+    tehila2.double_age();
+
+    let tehila3 = Tehila {
+        age: 25,
+        height: 1.70,
+        is_happy: false
+    };
+    tehila3.double_height();
+
+    let mut tehila4 = Tehila {
+        age: 25,
+        height: 1.70,
+        is_happy: false
+    };
+    tehila4.mood();
+
+    let new_traits = Tehila {
+        age: 10,
+        height: 1.2,
+        is_happy: true
+    };
+
+    let custom_traits = Tehila {
+        age: 20,
+        height: 2.0,
+        is_happy: true
+    };
+
+    if new_traits.is_taller(&custom_traits) {
+        println!("{:?} is longer than {:?}", new_traits, custom_traits);
+    } else {
+        println!("this is false information");
+    }
 
 }
 
@@ -93,5 +132,26 @@ fn our_coffee(coffee: &mut Coffee) {
 impl Tehila {
     fn new(self) {
         println!("Tehila is {} years old, {} meters tall, and is happy: {}", self.age, self.height, self.is_happy);
+    } // here, self is the immutable struct instance
+
+    fn double_age(mut self) {
+        self.age = self.age * 2;
+        println!("{:#?}", self);
+    } // here is a mutable struct instance
+
+    fn double_height(&self) {
+        let doubled = self.height * 2.0;
+        println!("Tehila's doubled height would be: {}", doubled);
+        println!("Current Tehila: {:#?}", self);
+    } // here is an immutable reference - can only read, not modify
+    
+    fn mood(&mut self) {
+        self.is_happy = true;
+        println!("{:#?}", self);
+    } // here is a mutable reference.
+
+    // methods with multiple parameters
+    fn is_taller(&self, other: &Self) -> bool {
+        self.height > other.height
     }
 }
