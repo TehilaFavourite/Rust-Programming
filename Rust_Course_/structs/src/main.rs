@@ -144,7 +144,7 @@ impl Tehila {
         println!("Tehila's doubled height would be: {}", doubled);
         println!("Current Tehila: {:#?}", self);
     } // here is an immutable reference - can only read, not modify
-    
+    //
     fn mood(&mut self) {
         self.is_happy = true;
         println!("{:#?}", self);
