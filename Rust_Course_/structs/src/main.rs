@@ -5,6 +5,8 @@ struct Tehila {
     is_happy: bool
 }
 
+#[derive(Debug)]
+
 struct Coffee {
     price: f64,
     name: String,
@@ -17,6 +19,11 @@ struct Computer {
     ram: u32,
     is_on: bool
 }
+
+// Tuple struct
+#[derive(Debug)]
+struct Color(i32, i32, i32);
+
 fn main() {
     let mocha = Coffee {
         name: String::from("Mocha"),
@@ -115,6 +122,11 @@ fn main() {
         .toggle_power()
         .new_cpu(String::from("Intel i9"));
     println!("{:#?}", my_computer);
+
+    let black = Color(0, 0, 0);
+    let white = Color(255, 255, 255);
+    println!("Black color: {:?}", black);
+    println!("White color: {:?}", white);
 }
 
 
