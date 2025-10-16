@@ -24,6 +24,9 @@ struct Computer {
 #[derive(Debug)]
 struct Color(i32, i32, i32);
 
+// unit-like struct
+struct Marker;
+
 fn main() {
     let mocha = Coffee {
         name: String::from("Mocha"),
@@ -127,6 +130,8 @@ fn main() {
     let white = Color(255, 255, 255);
     println!("Black color: {:?}", black);
     println!("White color: {:?}", white);
+
+    let _marker = Marker;
 }
 
 
