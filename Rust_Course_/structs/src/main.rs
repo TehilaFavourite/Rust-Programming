@@ -10,6 +10,13 @@ struct Coffee {
     name: String,
     is_hot: bool
 }
+
+#[derive(Debug)]
+struct Computer {
+    cpu: String,
+    ram: u32,
+    is_on: bool
+}
 fn main() {
     let mocha = Coffee {
         name: String::from("Mocha"),
@@ -100,7 +107,16 @@ fn main() {
     let tehila5 = Tehila::new_girl(5, 1.0, true);
     println!("{:#?}", tehila5);
 
+    let mut my_computer = Computer::new_computer(String::from("Intel i7"), 16, false);
+    
+    my_computer
+        // .display_specs()
+        .upgrade_ram(16)
+        .toggle_power()
+        .new_cpu(String::from("Intel i9"));
+    println!("{:#?}", my_computer);
 }
+
 
 fn make_coffee(name: String, price: f64, is_hot: bool) -> Coffee {
     Coffee {
@@ -169,5 +185,30 @@ impl Tehila {
     // methods with multiple parameters
     fn is_taller(&self, other: &Self) -> bool {
         self.height > other.height
+    }
+}
+
+impl Computer {
+    fn new_computer(cpu: String, ram: u32, is_on: bool) -> Self {
+        Self { cpu, ram, is_on }
+    }
+
+    fn upgrade_ram(&mut self, additional_ram: u32) -> &mut Self {
+        self.ram += additional_ram;
+        println!("Upgraded RAM: {} GB", self.ram);
+        self
+    }
+
+    fn toggle_power(&mut self) -> &mut Self {
+        self.is_on = !self.is_on;
+        let state = if self.is_on { "ON" } else { "OFF" };
+        println!("Computer is now {}", state);
+        self
+    }
+
+    fn new_cpu(&mut self, new_cpu: String) -> &mut Self {
+        self.cpu = new_cpu;
+        println!("Upgraded CPU: {}", self.cpu);
+        self
     }
 }
