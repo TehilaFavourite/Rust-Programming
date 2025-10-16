@@ -96,12 +96,10 @@ fn main() {
         println!("this is false information");
     }
 
-<<<<<<< HEAD
+    // keep the associated constructor call from one branch
     let tehila5 = Tehila::new_girl(5, 1.0, true);
     println!("{:#?}", tehila5);
 
-=======
->>>>>>> dac30aa4f4d5898b8cf75b220525fb143c4318b5
 }
 
 fn make_coffee(name: String, price: f64, is_hot: bool) -> Coffee {
@@ -136,64 +134,40 @@ fn our_coffee(coffee: &mut Coffee) {
 }
 
 impl Tehila {
-    
-
-    fn double_age(mut self) {
-        self.age = self.age * 2;
-        println!("{:#?}", self);
-    } // here is a mutable struct instance
-
-    fn double_height(&self) {
-        let doubled = self.height * 2.0;
-        println!("Tehila's doubled height would be: {}", doubled);
-        println!("Current Tehila: {:#?}", self);
-    } // here is an immutable reference - can only read, not modify
-    
-    fn mood(&mut self) {
-        self.is_happy = true;
-        println!("{:#?}", self);
-    } // here is a mutable reference.
-
-    // methods with multiple parameters
-    fn is_taller(&self, other: &Self) ->bool {
-        self.height > other.height
-    }
-    // associated function
+    // associated function - does not take self as a parameter
     fn new_girl(age: u8, height: f64, is_happy: bool) -> Self {
-        Self {
-            age,
-            height,
-            is_happy
-        }
-    } // associated function - does not take self as a parameter
-}
+        Self { age, height, is_happy }
+    }
 
-impl Tehila {
+    // instance method that takes ownership (by-value)
     fn new(self) {
-        println!("Tehila is {} years old, {} meters tall, and is happy: {}", self.age, self.height, self.is_happy);
-    } // here, self is the immutable struct instance
-<<<<<<< HEAD
-=======
+        println!(
+            "Tehila is {} years old, {} meters tall, and is happy: {}",
+            self.age, self.height, self.is_happy
+        );
+    }
 
+    // here is a mutable struct instance (takes ownership)
     fn double_age(mut self) {
         self.age = self.age * 2;
         println!("{:#?}", self);
-    } // here is a mutable struct instance
+    }
 
+    // here is an immutable reference - can only read, not modify
     fn double_height(&self) {
         let doubled = self.height * 2.0;
         println!("Tehila's doubled height would be: {}", doubled);
         println!("Current Tehila: {:#?}", self);
-    } // here is an immutable reference - can only read, not modify
-    //
+    }
+
+    // here is a mutable reference.
     fn mood(&mut self) {
         self.is_happy = true;
         println!("{:#?}", self);
-    } // here is a mutable reference.
+    }
 
     // methods with multiple parameters
     fn is_taller(&self, other: &Self) -> bool {
         self.height > other.height
     }
->>>>>>> dac30aa4f4d5898b8cf75b220525fb143c4318b5
 }
