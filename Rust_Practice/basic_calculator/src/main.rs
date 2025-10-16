@@ -71,6 +71,23 @@ fn get_second_number() -> f64 {
     }
 }
 
+// fn get_third() -> <f64> {
+//     loop {
+//         println!("enter the third number");
+//         let mut input = String::new();
+//         io::stdin()
+//             .read_line(&mut input)
+//             .expect("Failed to read line");
+
+//         match input.trim().parse::<f64>() {
+//             Ok(num) => return num,
+//             Err(_) => {
+//                 println!("Invalid float");
+//             }
+//         }
+//     }
+// }
+
 fn calculate(num1: f64, num2: f64, operator: &str) -> Result<f64, String> {
     match operator {
         "+" => Ok(num1 + num2),
@@ -104,3 +121,31 @@ fn calculate(num1: f64, num2: f64, operator: &str) -> Result<f64, String> {
     //     }
     // };
     // println!("this is my float {}", my_float);
+
+
+
+
+    // have a calculator where they enter a value through a url. ------> future project
+    // addd the square root, power,
+
+    // Rust
+    
+    enum TxStatus {
+    Pending,
+    Success,
+    Failed(String),
+    }
+
+    struct Transaction {
+        id: u32,
+        amount: u64,
+        status: TxStatus,
+    }
+
+    impl Transaction {
+        fn fail(&mut self, reason: String) {
+            self.status = TxStatus::Failed(reason);
+        }
+    }
+
+
