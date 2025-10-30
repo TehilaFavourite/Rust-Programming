@@ -12,7 +12,7 @@ impl OnlineOrderStatus {
             OnlineOrderStatus::Ordered | OnlineOrderStatus::Packed | OnlineOrderStatus::Shipped => {
                 println!("Your order has been delivered");
             }
-            _ => {
+            other_status => {
                 println!("Your order is not ready yet");
             }
         }
