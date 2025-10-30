@@ -5,7 +5,7 @@ enum PaymentMethodTypes {
     DebitCard(String),
     Paypal(String),
 }
-
+//
 
 fn main() {
     let visa = PaymentMethodTypes::CreditCard(String::from("0000-2222-3333-4444"));
