@@ -43,6 +43,8 @@ fn main() {
     println!("Message 1 time: {}", message1.retrieve_time());
     println!("Message 2 time: {}", message2.retrieve_time());
     println!("Message 3 time: {}", message3.retrieve_time());
+
+    
 }
 /*
 The `time` field should always be a String.
@@ -72,3 +74,5 @@ ChatMessage storing a DigitalContent enum.
 Invoke the `retrieve_time` method on all 3 ChatMessage
 instances and print out each String's content.
 */
+
+
