@@ -13,6 +13,7 @@ fn main() {
     let valid_instrument = bass.unwrap();
     println!("The valid instrument is: {}", valid_instrument);
 
+    // this will panic if invalid is None
     let invalid_instrument = invalid.expect("Instrument not found");
     println!("The invalid instrument is: {}", invalid_instrument);
 }
