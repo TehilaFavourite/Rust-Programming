@@ -10,5 +10,9 @@ fn is_item_in_stock(item_is_in_system: bool, item_is_in_stock: bool) -> Option<b
 
 fn main() {
     let availability = is_item_in_stock(true, true);
-    println!("{availability:?}");
+    match availability {
+        Option::Some(true) => println!("yes, in stock"),
+        Option::Some(false) => println!("No, not in stock"),
+        Option::None => println!("item is not in the system"),
+    }
 }
