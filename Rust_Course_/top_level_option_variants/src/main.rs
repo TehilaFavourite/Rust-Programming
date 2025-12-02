@@ -16,3 +16,24 @@ fn main() {
         None => println!("item is not in the system"),
     }
 }
+
+// Matching on Option
+fn process_value(opt: Option<i32>) {
+    match opt {
+        Some(value) => println!("Got value: {}", value),
+        None => println!("No value found"),
+    }
+}
+
+// Function returning Option
+fn find_user(id: u32) -> Option<String> {
+    if id == 1 {
+        Some("Alice".to_string())
+    } else {
+        None
+    }
+}
+
+// Using Some/None directly (no Option:: prefix needed)
+let result = Some(42);
+let empty = None;
