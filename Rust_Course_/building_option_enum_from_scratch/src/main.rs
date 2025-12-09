@@ -13,8 +13,10 @@ impl MyOption {
     }
 
     fn unwrap_or(self, fallback_value: i32) -> i32 {
-        MyOption::Some(Value) => value,
-        MyOption::None => fallback_value
+        match self {
+            MyOption::Some(value) => value,
+            MyOption::None => fallback_value
+        }
     } 
 }
 
@@ -26,8 +28,8 @@ fn main() {
     println!("{}", none_option.unwrap());
 
     let some_option = MyOption::Some(100);
-    println!("{}", some_option.unwrap_or());
+    println!("{}", some_option.unwrap_or(0));
 
     let none_option = MyOption::None;
-    println!("{}", none_option.unwrap_or());
+    println!("{}", none_option.unwrap_or(0));
 }
