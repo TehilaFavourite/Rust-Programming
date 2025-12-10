@@ -1,6 +1,0 @@
-[package]
-name = "building_option_enum_from_scratch"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]

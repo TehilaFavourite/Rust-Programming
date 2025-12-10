@@ -1,6 +1,0 @@
-[package]
-name = "Open_Data_Types"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]

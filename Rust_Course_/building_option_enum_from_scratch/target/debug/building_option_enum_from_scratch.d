@@ -1,1 +1,0 @@
-C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\building_option_enum_from_scratch\target\debug\building_option_enum_from_scratch.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\building_option_enum_from_scratch\src\main.rs

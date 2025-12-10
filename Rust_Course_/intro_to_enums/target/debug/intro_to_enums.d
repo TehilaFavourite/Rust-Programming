@@ -1,1 +1,0 @@
-C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\intro_to_enums\target\debug\intro_to_enums.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\intro_to_enums\src\main.rs

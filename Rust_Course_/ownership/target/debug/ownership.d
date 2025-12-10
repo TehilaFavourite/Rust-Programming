@@ -1,1 +1,0 @@
-C:\Users\NetzenceBD\OneDrive\Desktop\P\ workspace\Rust-Programming\Rust_Course_\ownership\target\debug\ownership.exe: C:\Users\NetzenceBD\OneDrive\Desktop\P\ workspace\Rust-Programming\Rust_Course_\ownership\src\main.rs

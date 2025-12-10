@@ -1,1 +1,0 @@
-C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\real_example_of_result_enum\target\debug\real_example_of_result_enum.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\real_example_of_result_enum\src\main.rs
