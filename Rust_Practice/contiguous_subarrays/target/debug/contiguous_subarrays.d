@@ -1,0 +1,1 @@
+/Users/favourajaye/Desktop/workspace/rust/Rust_Practice/contiguous_subarrays/target/debug/contiguous_subarrays: /Users/favourajaye/Desktop/workspace/rust/Rust_Practice/contiguous_subarrays/src/main.rs

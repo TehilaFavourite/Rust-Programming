@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\nuances_of_unwrap_method_on_results\target\debug\nuances_of_unwrap_method_on_results.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\nuances_of_unwrap_method_on_results\src\main.rs

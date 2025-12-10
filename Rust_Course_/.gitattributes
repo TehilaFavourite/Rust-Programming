@@ -1,0 +1,14 @@
+# Always use LF line endings, works best for Rust, TS, Solidity
+* text=auto eol=lf
+
+# Binary files (never modify line endings)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.zip binary
+
+# Solidity compiler artifacts (ignore line-ending normalization)
+*.bin binary
+*.json text
