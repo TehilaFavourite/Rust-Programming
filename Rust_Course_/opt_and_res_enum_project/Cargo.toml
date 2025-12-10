@@ -1,0 +1,6 @@
+[package]
+name = "opt_and_res_enum_project"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

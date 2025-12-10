@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\opt_and_res_enum_project\target\debug\opt_and_res_enum_project.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\opt_and_res_enum_project\src\main.rs
