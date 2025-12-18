@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\add_remove_elements\target\debug\add_remove_elements.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\add_remove_elements\src\main.rs
