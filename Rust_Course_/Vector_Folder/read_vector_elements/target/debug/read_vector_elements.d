@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\read_vector_elements\target\debug\read_vector_elements.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\read_vector_elements\src\main.rs
