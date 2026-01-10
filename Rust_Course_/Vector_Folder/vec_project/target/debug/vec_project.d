@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\vec_project\target\debug\vec_project.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\vec_project\src\main.rs
