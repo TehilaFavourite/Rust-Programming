@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\write_vec_elements\target\debug\write_vec_elements.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\Vector_Folder\write_vec_elements\src\main.rs
