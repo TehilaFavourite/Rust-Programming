@@ -9,8 +9,8 @@ struct Folder {
 }
 
 impl Folder {
-    fn new(name: String) -> Folder {
-        Folder {
+    fn new(name: String) -> Self {
+        Self {
             name,
             contents: Vec::new(),
         }
