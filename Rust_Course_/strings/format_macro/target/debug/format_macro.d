@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\strings\format_macro\target\debug\format_macro.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\strings\format_macro\src\main.rs
