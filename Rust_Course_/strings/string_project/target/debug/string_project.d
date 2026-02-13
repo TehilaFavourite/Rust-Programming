@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\strings\string_project\target\debug\string_project.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\strings\string_project\src\main.rs
