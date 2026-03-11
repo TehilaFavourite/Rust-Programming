@@ -1,0 +1,1 @@
+C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\errror_handling\opening_a_file\target\debug\opening_a_file.exe: C:\Users\NetzenceBD\Desktop\Desktop\P\ workspace\Rust-Programming\Rust_Course_\errror_handling\opening_a_file\src\main.rs

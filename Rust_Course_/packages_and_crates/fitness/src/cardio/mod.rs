@@ -25,3 +25,5 @@ impl Exercise {
 pub fn ask_about_program() {
     println!("The cardio trainer is {}", PERSONAL_TRAINER);
 }
+
+
