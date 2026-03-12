@@ -1,0 +1,6 @@
+[package]
+name = "read_to_str_assoc_fn"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
