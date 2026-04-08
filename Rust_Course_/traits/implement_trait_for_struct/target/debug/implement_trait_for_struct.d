@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/implement_trait_for_struct/target/debug/implement_trait_for_struct: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/implement_trait_for_struct/src/main.rs
