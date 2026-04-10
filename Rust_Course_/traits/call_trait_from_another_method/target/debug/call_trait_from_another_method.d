@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/call_trait_from_another_method/target/debug/call_trait_from_another_method: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/call_trait_from_another_method/src/main.rs
