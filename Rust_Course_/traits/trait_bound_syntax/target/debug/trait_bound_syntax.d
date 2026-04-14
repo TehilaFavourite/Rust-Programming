@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/trait_bound_syntax/target/debug/trait_bound_syntax: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/trait_bound_syntax/src/main.rs
