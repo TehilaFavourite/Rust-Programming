@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/multiple_trait_bounds/target/debug/multiple_trait_bounds: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/multiple_trait_bounds/src/main.rs
