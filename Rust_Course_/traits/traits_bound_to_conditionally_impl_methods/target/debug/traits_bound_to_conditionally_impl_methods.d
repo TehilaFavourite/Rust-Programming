@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/traits_bound_to_conditionally_impl_methods/target/debug/traits_bound_to_conditionally_impl_methods: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/traits_bound_to_conditionally_impl_methods/src/main.rs
