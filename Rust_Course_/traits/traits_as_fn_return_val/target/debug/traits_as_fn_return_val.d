@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/traits_as_fn_return_val/target/debug/traits_as_fn_return_val: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/traits_as_fn_return_val/src/main.rs
