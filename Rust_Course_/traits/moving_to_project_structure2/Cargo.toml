@@ -1,0 +1,9 @@
+[package]
+name = "moving_to_project_structure2"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "traits"
+
+[dependencies]

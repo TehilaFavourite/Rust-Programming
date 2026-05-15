@@ -1,50 +1,54 @@
 use std::collections::HashMap;
+use std::fmt::Display;
 
-trait Accomodation {
+pub trait Accomodation {
     fn book(&mut self, name: &str, nights: u32);
 }
 
-trait Description {
+pub trait Description {
     fn get_description(&self) -> String {
         String::from("This is a place to stay.")
     }
 }
 
 #[derive(Debug)]
-struct Hotel {
-    name: String,
+pub struct Hotel<T> {
+    name: T,
     reservations: HashMap<String, u32>,
 }
 
-impl Hotel {
-    fn new(name: &str) -> Self {
+impl<T> Hotel<T> {
+    pub fn new(name: T) -> Self {
         Self {
-            name: name.to_string(),
+            name,
             reservations: HashMap::new(),
         }
     }
+}
 
-    fn summarize(&self) -> String {
+impl<T: Display> Hotel<T> {
+
+    pub fn summarize(&self) -> String {
         format!("{}: {}.", self.name, self.get_description())
     }
 }
 
-impl Accomodation for Hotel {
+impl<T> Accomodation for Hotel<T> {
     fn book(&mut self, name: &str, nights: u32) {
         self.reservations.insert(name.to_string(), nights);
     }
 }
 
-impl Description for Hotel {}
+impl<T> Description for Hotel<T> {}
 
 #[derive(Debug)]
-struct AirBnB {
+pub struct AirBnB {
     host: String,
     guests: Vec<(String, u32)>,
 }
 
 impl AirBnB {
-    fn new(host: &str) -> Self {
+    pub fn new(host: &str) -> Self {
         Self {
             host: host.to_string(),
             guests: vec![],
@@ -69,11 +73,11 @@ impl Description for AirBnB {
     }
 }
 
-fn book_for_one_night<T: Accomodation + Description>(entity: &mut T, guest: &str) {
+pub fn book_for_one_night<T: Accomodation + Description>(entity: &mut T, guest: &str) {
     entity.book(guest, 1);
 }
 
-fn mix_and_match<T, U>(first: &mut T, second: &mut U, guest: &str)
+pub fn mix_and_match<T, U>(first: &mut T, second: &mut U, guest: &str)
 where
     T: Accomodation + Description,
     U: Accomodation,
@@ -81,15 +85,4 @@ where
     first.book(guest, 1);
     first.get_description();
     second.book(guest, 1);
-}
-
-fn choose_best_place_to_stay() -> impl Accomodation + Description {
-    AirBnB::new("Bob")
-}
-
-fn main() {
-    let mut hotel = choose_best_place_to_stay();
-
-    let mut airbnb = AirBnB::new("Bob");
-    mix_and_match(&mut hotel, &mut airbnb, "Alice");
 }
