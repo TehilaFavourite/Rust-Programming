@@ -1,14 +1,10 @@
-trait Investment {
-    fn amount(&self) -> f64;
+trait Investment<T> {
+    fn amount(&self) -> T;
 
-    fn set_amount(&mut self, new_amount: f64);
-
-    fn double_amount(&mut self){
-        self.set_amount(self.amount() * 2.0);
-    }
+    fn double_amount(&mut self);
 }
 
-trait Taxable: Investment {
+trait Taxable: Investment<f64> {
     const TAX_RATE: f64 = 0.25;
 
     fn tax_bill(&self) -> f64 {
@@ -21,13 +17,13 @@ struct Income {
     amount: f64,
 }
 
-impl Investment for Income {
+impl Investment<f64> for Income {
     fn amount(&self) -> f64 {
         self.amount
     }
 
-    fn set_amount(&mut self, new_amount: f64) {
-        self.amount = new_amount;
+    fn double_amount(&mut self) {
+        self.amount *= 2.0;
     }
 }
 
@@ -38,13 +34,13 @@ struct Bonus {
     value: f64,
 }
 
-impl Investment for Bonus {
+impl Investment<f64> for Bonus {
     fn amount(&self) -> f64 {
         self.value
     }
 
-    fn set_amount(&mut self, new_amount: f64) {
-        self.value = new_amount;
+    fn double_amount(&mut self) {
+        self.value *= 2.0;
     }
 }
 
@@ -52,31 +48,31 @@ impl Taxable for Bonus {
     const TAX_RATE: f64 = 0.50;
 }
 
+#[derive(Debug)]
 struct QualityTime {
-    minutes: f64,
+    minutes: u32,
 }
 
-impl Investment for QualityTime {
-    fn amount(&self) -> f64 {
+impl Investment<u32> for QualityTime {
+    fn amount(&self) -> u32 {
         self.minutes
     }
 
-    fn set_amount(&mut self, new_amount: f64) {
-        self.minutes = new_amount;
+    fn double_amount(&mut self) {
+        self.minutes *= 2;
     }
 }
 
 fn main() {
     let mut income = Income { amount: 1000.0 };
-    println!("Tax bill: ${:.}", income.tax_bill());
-    income.double_amount();
-    println!("Tax bill after doubling: ${:.}", income.tax_bill());
 
     let mut bonus = Bonus { value: 1500.0 };
-    println!("Tax bill: ${:.}", bonus.tax_bill());
-    bonus.double_amount();
-    println!("Tax bill after doubling: ${:.}", bonus.tax_bill());
 
-    let weekend = QualityTime { minutes: 120.0 };
+    let mut weekend = QualityTime { minutes: 120 };
+    income.double_amount();
+    bonus.double_amount();
+    weekend.double_amount();
+    println!("Income: ${:.}, Tax bill: ${:.}", income.amount(), income.tax_bill());
+    println!("Bonus: ${:.}, Tax bill: ${:.}", bonus.amount(), bonus.tax_bill());
     println!("Weekend quality time: {} minutes", weekend.amount());
 }
