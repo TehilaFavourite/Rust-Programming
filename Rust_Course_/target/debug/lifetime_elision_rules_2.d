@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/lifetime_elision_rules_2: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/lifetimes/lifetime_elision_rules_2/src/main.rs

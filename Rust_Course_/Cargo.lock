@@ -259,6 +259,10 @@ name = "lifetime_elision_rules"
 version = "0.1.0"
 
 [[package]]
+name = "lifetime_elision_rules_2"
+version = "0.1.0"
+
+[[package]]
 name = "lifetimes_and_referents"
 version = "0.1.0"
 
