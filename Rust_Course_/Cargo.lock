@@ -255,6 +255,10 @@ name = "invalid_lifetimes"
 version = "0.1.0"
 
 [[package]]
+name = "lifetimes_and_referents"
+version = "0.1.0"
+
+[[package]]
 name = "lifetimes_for_refs"
 version = "0.1.0"
 
