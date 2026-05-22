@@ -1,0 +1,6 @@
+[package]
+name = "lifetimes_for_refs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]

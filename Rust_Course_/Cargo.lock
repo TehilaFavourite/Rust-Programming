@@ -243,6 +243,10 @@ name = "intro_to_pub"
 version = "0.1.0"
 
 [[package]]
+name = "lifetimes_for_refs"
+version = "0.1.0"
+
+[[package]]
 name = "moving_to_project_structure"
 version = "0.1.0"
 
