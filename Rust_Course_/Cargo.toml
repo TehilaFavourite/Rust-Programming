@@ -59,6 +59,7 @@ members = [
     "lifetimes/multiple_parameters_2","lifetimes/lifetime_elision_rules_2", 
     "lifetimes/lifetimes_in_structs",
     "lifetimes/multiple_lifetimes",
+    "lifetimes/static_lifetime",
 
     # option_and_result
     "option_and_result/the_option_enum",
