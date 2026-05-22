@@ -127,6 +127,10 @@ name = "fitness"
 version = "0.1.0"
 
 [[package]]
+name = "fn_cant_return_ref_to_owned_val_or_param"
+version = "0.1.0"
+
+[[package]]
 name = "format_macro"
 version = "0.1.0"
 

@@ -50,6 +50,7 @@ members = [
     "lifetimes/lifetimes_for_refs",
     "lifetimes/non_lexical_lifetimes",
     "lifetimes/invalid_lifetimes",
+    "lifetimes/fn_cant_return_ref_to_owned_val_or_param",
 
     # option_and_result
     "option_and_result/the_option_enum",
@@ -148,5 +149,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                    
+    "packages_and_crates/intro_to_pub",                     
 ]

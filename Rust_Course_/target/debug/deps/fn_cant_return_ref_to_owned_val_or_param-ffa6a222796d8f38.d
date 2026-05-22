@@ -1,0 +1,5 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/deps/fn_cant_return_ref_to_owned_val_or_param-ffa6a222796d8f38.d: lifetimes/fn_cant_return_ref_to_owned_val_or_param/src/main.rs
+
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/deps/fn_cant_return_ref_to_owned_val_or_param-ffa6a222796d8f38: lifetimes/fn_cant_return_ref_to_owned_val_or_param/src/main.rs
+
+lifetimes/fn_cant_return_ref_to_owned_val_or_param/src/main.rs:
