@@ -55,6 +55,8 @@ members = [
     "lifetimes/intro_to_generic_lifetimes",
     "lifetimes/lifetimes_and_referents",
     "lifetimes/lifetime_elision_rules",
+    "lifetimes/multiple_parameters",
+    "lifetimes/multiple_parameters_2",
 
     # option_and_result
     "option_and_result/the_option_enum",
@@ -153,5 +155,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                         
+    "packages_and_crates/intro_to_pub",                           
 ]

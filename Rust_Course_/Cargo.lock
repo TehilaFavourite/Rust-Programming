@@ -275,6 +275,14 @@ name = "moving_to_project_structure2"
 version = "0.1.0"
 
 [[package]]
+name = "multiple_parameters"
+version = "0.1.0"
+
+[[package]]
+name = "multiple_parameters_2"
+version = "0.1.0"
+
+[[package]]
 name = "multiple_trait_bounds"
 version = "0.1.0"
 
