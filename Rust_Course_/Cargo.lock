@@ -267,6 +267,10 @@ name = "nesting_enums"
 version = "0.1.0"
 
 [[package]]
+name = "non_lexical_lifetimes"
+version = "0.1.0"
+
+[[package]]
 name = "nuances_of_unwrap_method_on_results"
 version = "0.1.0"
 
