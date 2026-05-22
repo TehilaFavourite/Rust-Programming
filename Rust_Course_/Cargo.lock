@@ -235,6 +235,10 @@ name = "intro_to_enums"
 version = "0.1.0"
 
 [[package]]
+name = "intro_to_generic_lifetimes"
+version = "0.1.0"
+
+[[package]]
 name = "intro_to_generics"
 version = "0.1.0"
 
@@ -336,6 +340,10 @@ version = "0.1.0"
 
 [[package]]
 name = "real_example_of_result_enum"
+version = "0.1.0"
+
+[[package]]
+name = "ref_as_fn_param"
 version = "0.1.0"
 
 [[package]]
