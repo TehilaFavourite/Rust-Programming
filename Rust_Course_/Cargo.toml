@@ -1,0 +1,149 @@
+[workspace]
+resolver = "2"
+
+members = [
+    # basics
+    "basics/course_variables",
+    "basics/open_data_types",
+    "basics/multiple_tuple",
+    "basics/functions",
+    "basics/project_1",
+
+    # control_flow
+    "control_flow/control_flow",
+    "control_flow/control_flow_project",
+
+    # ownership
+    "ownership/ownership",
+    "ownership/ownership_project",
+    "ownership/references_and_borrowing",
+    "ownership/references_and_borrowing_project",
+    "ownership/slices",
+    "ownership/slices_project",
+
+    # structs
+    "structs/structs",
+    "structs/structs_project",
+    "structs/get_method_on_array",
+
+    # enums
+    "enums/intro_to_enums",
+    "enums/enum_with_assoc_values",
+    "enums/enum_with_assoc_values_2",
+    "enums/defining_methods_on_enums",
+    "enums/nesting_enums",
+    "enums/struct_variants_in_enums",
+    "enums/building_option_enum_from_scratch",
+    "enums/enum_match_keyword",
+    "enums/enum_match_keyword_2",
+    "enums/enum_match_keyword_3",
+    "enums/enum_match_keyword_4",
+    "enums/enum_match_keyword_5",
+    "enums/the_match_keyword_with",
+    "enums/enum_if_let_construct",
+    "enums/enum_let_else_construct",
+    "enums/the_while_let_construct",
+    "enums/enum_project",
+
+    # lifetimes
+    "lifetimes/concret_lifetimes_for_value1",
+
+    # option_and_result
+    "option_and_result/the_option_enum",
+    "option_and_result/top_level_option_variants",
+    "option_and_result/returning_an_option_enum",
+    "option_and_result/nuances_of_unwrap",
+    "option_and_result/the_unwrap_and_expect_method",
+    "option_and_result/the_unwrap_or_method",
+    "option_and_result/real_example_of_result_enum",
+    "option_and_result/the_result_enum",
+    "option_and_result/returning_a_result_enum",
+    "option_and_result/opt_and_res_enum_project",
+
+    # error_handling
+    "error_handling/asking_user_input",
+    "error_handling/opening_a_file",
+    "error_handling/read_file_content",
+    "error_handling/read_to_str_assoc_fn",
+    "error_handling/standard_error",
+    "error_handling/process_mod_exit_func",
+    "error_handling/propagating_errors",
+    "error_handling/the_try_operator",
+    "error_handling/using_try_with_option",
+    "error_handling/error_handling_project",
+
+    # generics
+    "generics/intro_to_generics",
+    "generics/generics_in_structs",
+    "generics/generics_in_enums",
+    "generics/generic_and_impl_blocks_1",
+    "generics/generic_and_impl_blocks_2",
+    "generics/turbofish_operator",
+    "generics/generics_project",
+
+    # traits
+    "traits/call_trait_from_another_method",
+    "traits/default_implementation",
+    "traits/defining_trait",
+    "traits/implement_trait_for_struct",
+    "traits/moving_to_project_structure",
+    "traits/moving_to_project_structure2",
+    "traits/multiple_trait_bounds",
+    "traits/preview_of_trait_objects",
+    "traits/trait_bound_syntax",
+    "traits/traits_as_fn_return_val",
+    "traits/traits_bound_to_conditionally_impl_methods",
+    "traits/traits_for_fn_param_constraints",
+    "traits/where_clauses",
+    "traits/associated_constraints",
+    "traits/getters_in_traits",
+    "traits/setters_in_traits",
+    "traits/supertraits_traits_inheritance",
+    "traits/traits_with_generics",
+    "traits/impl_display_trait_on_struct",
+    "traits/impl_display_trait_on_enum",
+    "traits/impl_debug_trait",
+    "traits/formatter_methods",
+    "traits/impl_the_drop_trait",
+    "traits/impl_clone_trait",
+    "traits/impl_copy_trait",
+    "traits/impl_partialEq_trait_for_structs",
+    "traits/defining_eq_for_different_types",
+    "traits/impl_partialEq_trait_for_enums",
+    "traits/impl_the_eq_trait",
+    "traits/impl_partialOrd_trait",
+    "traits/associated_types_1",
+    "traits/associated_types_2",
+    "traits/traits_project",
+
+    # strings
+    "strings/concatenation",
+    "strings/format_macro",
+    "strings/string_methods",
+    "strings/string_project",
+    "strings/user_input",
+
+    # vectors
+    "vectors/add_remove_elements",
+    "vectors/create_a_vector",
+    "vectors/read_vector_elements",
+    "vectors/vec_project",
+    "vectors/vector_get_method",
+    "vectors/write_vec_elements",
+
+    # hashmaps
+    "hashmaps/access_value_by_key",
+    "hashmaps/hahset_operations",
+    "hashmaps/hash_set",
+    "hashmaps/hashaps_and_ownership",
+    "hashmaps/hashmap_with_new_fn",
+    "hashmaps/overwriting_val_with_existing_key",
+    "hashmaps/project_hashmap",
+    "hashmaps/the_entry_method",
+    "hashmaps/the_remove_method",
+
+    # packages_and_crates
+    "packages_and_crates/fitness",
+    "packages_and_crates/intro_to_module",
+    "packages_and_crates/intro_to_pub",                 
+]

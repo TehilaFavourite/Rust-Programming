@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/impl_debug_trait: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/impl_debug_trait/src/main.rs

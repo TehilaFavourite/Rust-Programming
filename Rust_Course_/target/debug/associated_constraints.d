@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/associated_constraints: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/associated_constraints/src/main.rs

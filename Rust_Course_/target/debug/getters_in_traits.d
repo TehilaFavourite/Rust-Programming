@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/getters_in_traits: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/getters_in_traits/src/main.rs

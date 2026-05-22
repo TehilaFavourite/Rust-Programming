@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/libmoving_to_project_structure2.rlib: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/moving_to_project_structure/src/lib.rs /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/moving_to_project_structure2/src/lib.rs

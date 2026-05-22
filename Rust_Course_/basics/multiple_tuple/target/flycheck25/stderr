@@ -1,0 +1,52 @@
+   0.005501042s  INFO prepare_target{force=false package_id=multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple) target="multiple_tuple"}: cargo::core::compiler::fingerprint: fingerprint error for multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple)/Check { test: false }/TargetInner { name: "multiple_tuple", doc: true, ..: with_path("/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple/src/main.rs", Edition2024) }
+   0.005521792s  INFO prepare_target{force=false package_id=multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple) target="multiple_tuple"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple/target/debug/.fingerprint/multiple_tuple-11cfd0cd60a36e5b/bin-multiple_tuple`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.009092584s  INFO prepare_target{force=false package_id=multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple) target="multiple_tuple"}: cargo::core::compiler::fingerprint: fingerprint error for multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple)/Check { test: true }/TargetInner { name: "multiple_tuple", doc: true, ..: with_path("/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple/src/main.rs", Edition2024) }
+   0.009108000s  INFO prepare_target{force=false package_id=multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple) target="multiple_tuple"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple/target/debug/.fingerprint/multiple_tuple-985369357e87632c/test-bin-multiple_tuple`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking multiple_tuple v0.1.0 (/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/multiple_tuple)
+error: could not compile `multiple_tuple` (bin "multiple_tuple") due to 1 previous error
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `multiple_tuple` (bin "multiple_tuple" test) due to 1 previous error

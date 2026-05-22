@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/impl_partialEq_trait_for_structs: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/impl_partialEq_trait_for_structs/src/main.rs

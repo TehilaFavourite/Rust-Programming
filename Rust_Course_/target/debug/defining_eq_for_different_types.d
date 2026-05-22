@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/defining_eq_for_different_types: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/defining_eq_for_different_types/src/main.rs

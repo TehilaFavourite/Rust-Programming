@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/impl_display_trait_on_enum: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/impl_display_trait_on_enum/src/main.rs

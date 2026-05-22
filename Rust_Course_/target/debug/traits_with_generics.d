@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/traits_with_generics: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/traits_with_generics/src/main.rs

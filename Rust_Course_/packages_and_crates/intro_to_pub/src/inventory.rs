@@ -2,8 +2,8 @@
     pub const MANAGER: &str = "Ivan";
 
     enum ProductCategory {
-        pub Ladder,
-        pub Hammer,
+        Ladder,
+        Hammer,
     }
 
     struct Item {

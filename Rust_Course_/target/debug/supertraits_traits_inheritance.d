@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/supertraits_traits_inheritance: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/supertraits_traits_inheritance/src/main.rs

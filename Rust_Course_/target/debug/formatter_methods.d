@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/formatter_methods: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/traits/formatter_methods/src/main.rs
