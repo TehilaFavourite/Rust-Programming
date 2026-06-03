@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/project_lifetimes: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/lifetimes/project_lifetimes/src/main.rs

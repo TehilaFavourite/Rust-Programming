@@ -13,6 +13,9 @@ members = [
     "control_flow/control_flow",
     "control_flow/control_flow_project",
 
+    # closures
+    "closures/nested_functions", 
+
     # ownership
     "ownership/ownership",
     "ownership/ownership_project",
@@ -60,6 +63,7 @@ members = [
     "lifetimes/lifetimes_in_structs",
     "lifetimes/multiple_lifetimes",
     "lifetimes/static_lifetime",
+    "lifetimes/project_lifetimes", 
 
     # option_and_result
     "option_and_result/the_option_enum",

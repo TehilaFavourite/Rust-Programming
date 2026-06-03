@@ -303,6 +303,10 @@ name = "multiple_tuple"
 version = "0.1.0"
 
 [[package]]
+name = "nested_functions"
+version = "0.1.0"
+
+[[package]]
 name = "nesting_enums"
 version = "0.1.0"
 
@@ -348,6 +352,10 @@ version = "0.1.0"
 
 [[package]]
 name = "project_hashmap"
+version = "0.1.0"
+
+[[package]]
+name = "project_lifetimes"
 version = "0.1.0"
 
 [[package]]
