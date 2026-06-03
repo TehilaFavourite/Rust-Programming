@@ -39,6 +39,10 @@ name = "call_trait_from_another_method"
 version = "0.1.0"
 
 [[package]]
+name = "closure_shortcuts"
+version = "0.1.0"
+
+[[package]]
 name = "concatenation"
 version = "0.1.0"
 
@@ -228,6 +232,10 @@ version = "0.1.0"
 
 [[package]]
 name = "implement_trait_for_struct"
+version = "0.1.0"
+
+[[package]]
+name = "intro_to_closures"
 version = "0.1.0"
 
 [[package]]
