@@ -43,6 +43,10 @@ name = "closure_shortcuts"
 version = "0.1.0"
 
 [[package]]
+name = "closure_that_captures_immut_ref"
+version = "0.1.0"
+
+[[package]]
 name = "concatenation"
 version = "0.1.0"
 
@@ -132,6 +136,10 @@ version = "0.1.0"
 
 [[package]]
 name = "fn_cant_return_ref_to_owned_val_or_param"
+version = "0.1.0"
+
+[[package]]
+name = "fn_trait_hierachy"
 version = "0.1.0"
 
 [[package]]

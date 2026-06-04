@@ -16,7 +16,9 @@ members = [
     # closures
     "closures/nested_functions",
     "closures/intro_to_closures", 
-    "closures/closure_shortcuts",   
+    "closures/closure_shortcuts",  
+    "closures/fn_trait_hierachy", 
+    "closures/closure_that_captures_immut_ref",
 
     # ownership
     "ownership/ownership",
@@ -164,5 +166,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                            
+    "packages_and_crates/intro_to_pub",                              
 ]
