@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/closure_shortcuts: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/closures/closure_shortcuts/src/main.rs
