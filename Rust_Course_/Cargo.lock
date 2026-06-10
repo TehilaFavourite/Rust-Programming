@@ -475,6 +475,10 @@ name = "the_match_keyword_with_option_enum"
 version = "0.1.0"
 
 [[package]]
+name = "the_move_keyword"
+version = "0.1.0"
+
+[[package]]
 name = "the_option_enum"
 version = "0.1.0"
 

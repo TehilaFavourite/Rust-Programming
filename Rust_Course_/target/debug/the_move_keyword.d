@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_move_keyword: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/closures/the_move_keyword/src/main.rs
