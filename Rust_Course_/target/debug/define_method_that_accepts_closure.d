@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/define_method_that_accepts_closure: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/closures/define_method_that_accepts_closure/src/main.rs

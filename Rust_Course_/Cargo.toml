@@ -23,6 +23,7 @@ members = [
     "closures/closures_with_ownership", 
     "closures/the_move_keyword",
     "closures/unwrap_or_else_method",
+    "closures/define_method_that_accepts_closure",  
 
     # ownership
     "ownership/ownership",
@@ -170,5 +171,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                
+    "packages_and_crates/intro_to_pub",                               
 ]
