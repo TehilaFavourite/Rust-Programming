@@ -87,6 +87,10 @@ name = "define_method_that_accepts_closure"
 version = "0.1.0"
 
 [[package]]
+name = "define_method_that_accepts_closure_2"
+version = "0.1.0"
+
+[[package]]
 name = "defining_eq_for_different_types"
 version = "0.1.0"
 

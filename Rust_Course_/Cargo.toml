@@ -25,6 +25,7 @@ members = [
     "closures/unwrap_or_else_method",
     "closures/define_method_that_accepts_closure",  
     "closures/the_string_retain_method",
+    "closures/define_method_that_accepts_closure_2",
 
     # ownership
     "ownership/ownership",
@@ -172,5 +173,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                
+    "packages_and_crates/intro_to_pub",                                 
 ]
