@@ -47,6 +47,10 @@ name = "closure_that_captures_immut_ref"
 version = "0.1.0"
 
 [[package]]
+name = "closure_that_captures_mut_ref"
+version = "0.1.0"
+
+[[package]]
 name = "concatenation"
 version = "0.1.0"
 
