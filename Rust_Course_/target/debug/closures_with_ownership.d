@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/closures_with_ownership: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/closures/closures_with_ownership/src/main.rs

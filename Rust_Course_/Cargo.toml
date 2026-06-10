@@ -20,6 +20,7 @@ members = [
     "closures/fn_trait_hierachy", 
     "closures/closure_that_captures_immut_ref",
     "closures/closure_that_captures_mut_ref", 
+    "closures/closures_with_ownership", 
 
     # ownership
     "ownership/ownership",
