@@ -371,6 +371,10 @@ name = "ownership_project"
 version = "0.1.0"
 
 [[package]]
+name = "passing_function_to_fn_trait_param"
+version = "0.1.0"
+
+[[package]]
 name = "preview_of_trait_objects"
 version = "0.1.0"
 

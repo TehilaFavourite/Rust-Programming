@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/passing_function_to_fn_trait_param: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/closures/passing_function_to_fn_trait_param/src/main.rs
