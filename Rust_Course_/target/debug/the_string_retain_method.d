@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_string_retain_method: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/closures/the_string_retain_method/src/main.rs
