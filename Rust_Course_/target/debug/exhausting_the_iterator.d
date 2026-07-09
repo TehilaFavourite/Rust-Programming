@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/exhausting_the_iterator: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/exhausting_the_iterator/src/main.rs

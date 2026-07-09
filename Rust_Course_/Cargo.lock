@@ -147,6 +147,10 @@ name = "error_handling_project"
 version = "0.1.0"
 
 [[package]]
+name = "exhausting_the_iterator"
+version = "0.1.0"
+
+[[package]]
 name = "fitness"
 version = "0.1.0"
 

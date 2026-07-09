@@ -181,5 +181,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                
+    "packages_and_crates/intro_to_pub", "iterations/exhausting_the_iterator",                                
 ]
