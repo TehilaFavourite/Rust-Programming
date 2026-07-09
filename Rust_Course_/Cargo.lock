@@ -207,6 +207,10 @@ name = "hahset_operations"
 version = "0.1.0"
 
 [[package]]
+name = "hash_map_iteration"
+version = "0.1.0"
+
+[[package]]
 name = "hash_set"
 version = "0.1.0"
 
