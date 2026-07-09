@@ -511,6 +511,10 @@ name = "the_iter_method"
 version = "0.1.0"
 
 [[package]]
+name = "the_iter_mut_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_match_keyword_with_option_enum"
 version = "0.1.0"
 
