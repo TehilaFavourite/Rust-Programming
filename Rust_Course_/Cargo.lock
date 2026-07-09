@@ -307,6 +307,10 @@ name = "lifetimes_in_structs"
 version = "0.1.0"
 
 [[package]]
+name = "manual_iteration"
+version = "0.1.0"
+
+[[package]]
 name = "moving_to_project_structure"
 version = "0.1.0"
 
@@ -384,6 +388,10 @@ version = "0.1.0"
 
 [[package]]
 name = "project_1"
+version = "0.1.0"
+
+[[package]]
+name = "project_closures"
 version = "0.1.0"
 
 [[package]]

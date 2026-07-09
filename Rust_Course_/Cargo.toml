@@ -28,6 +28,7 @@ members = [
     "closures/define_method_that_accepts_closure_2",
     "closures/the_fn_trait",
     "closures/passing_function_to_fn_trait_param",
+    "closures/project_closures",
 
     # ownership
     "ownership/ownership",
@@ -60,6 +61,10 @@ members = [
     "enums/enum_let_else_construct",
     "enums/the_while_let_construct",
     "enums/enum_project",
+
+    # iterations
+    "iterations/manual_iteration",  
+
 
     # lifetimes
     "lifetimes/concret_lifetimes_for_value1",
@@ -175,5 +180,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                   
+    "packages_and_crates/intro_to_pub",                                
 ]
