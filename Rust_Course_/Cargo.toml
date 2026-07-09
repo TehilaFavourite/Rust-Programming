@@ -67,6 +67,7 @@ members = [
     "iterations/into_iterator_in_action", 
     "iterations/exhausting_the_iterator", 
     "iterations/the_for_loop_with_iterator",
+    "iterations/the_iter_method",
 
 
     # lifetimes
@@ -183,5 +184,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                 
+    "packages_and_crates/intro_to_pub",                                  
 ]
