@@ -64,6 +64,7 @@ members = [
 
     # iterations
     "iterations/manual_iteration",  
+    "iterations/into_iterator_in_action", 
 
 
     # lifetimes

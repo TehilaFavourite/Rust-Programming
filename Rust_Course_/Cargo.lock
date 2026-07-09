@@ -259,6 +259,10 @@ name = "implement_trait_for_struct"
 version = "0.1.0"
 
 [[package]]
+name = "into_iterator_in_action"
+version = "0.1.0"
+
+[[package]]
 name = "intro_to_closures"
 version = "0.1.0"
 
