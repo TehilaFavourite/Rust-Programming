@@ -515,6 +515,10 @@ name = "the_fn_trait"
 version = "0.1.0"
 
 [[package]]
+name = "the_for_each_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_for_loop_with_iterator"
 version = "0.1.0"
 
