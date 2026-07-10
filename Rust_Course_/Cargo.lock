@@ -535,6 +535,10 @@ name = "the_filter_map_method"
 version = "0.1.0"
 
 [[package]]
+name = "the_flat_map_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_flatten_method"
 version = "0.1.0"
 

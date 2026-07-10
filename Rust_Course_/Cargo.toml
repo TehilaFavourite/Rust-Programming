@@ -82,6 +82,7 @@ members = [
     "iterations/the_cloned_method",
     "iterations/the_filter_map_method", 
     "iterations/the_flatten_method",
+    "iterations/the_flat_map_method", 
 
 
     # lifetimes
