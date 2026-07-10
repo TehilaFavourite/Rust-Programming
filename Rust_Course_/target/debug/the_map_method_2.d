@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_map_method_2: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/the_map_method_2/src/main.rs

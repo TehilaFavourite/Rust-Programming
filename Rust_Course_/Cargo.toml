@@ -75,6 +75,7 @@ members = [
     "iterations/the_for_each_method",
     "iterations/the_map_method", 
     "iterations/the_collect_method", 
+    "iterations/the_map_method_2",
 
 
     # lifetimes
@@ -191,5 +192,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                      
+    "packages_and_crates/intro_to_pub",                                       
 ]
