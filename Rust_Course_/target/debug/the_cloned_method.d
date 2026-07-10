@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_cloned_method: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/the_cloned_method/src/main.rs

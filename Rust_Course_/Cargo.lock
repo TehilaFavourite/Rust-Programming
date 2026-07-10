@@ -511,6 +511,10 @@ name = "the_any_and_all_methods"
 version = "0.1.0"
 
 [[package]]
+name = "the_cloned_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_collect_method"
 version = "0.1.0"
 
