@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_flatten_method: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/the_flatten_method/src/main.rs
