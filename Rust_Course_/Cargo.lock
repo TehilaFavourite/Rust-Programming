@@ -515,6 +515,10 @@ name = "the_entry_method"
 version = "0.1.0"
 
 [[package]]
+name = "the_filter_and_find_methods"
+version = "0.1.0"
+
+[[package]]
 name = "the_fn_trait"
 version = "0.1.0"
 
