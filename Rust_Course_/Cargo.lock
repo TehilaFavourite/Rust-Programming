@@ -467,6 +467,10 @@ name = "slices_project"
 version = "0.1.0"
 
 [[package]]
+name = "solving_problem_with_iteration"
+version = "0.1.0"
+
+[[package]]
 name = "standard_error"
 version = "0.1.0"
 

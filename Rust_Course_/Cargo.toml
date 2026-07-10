@@ -71,6 +71,7 @@ members = [
     "iterations/the_iter_mut_method",
     "iterations/hash_map_iteration", 
     "iterations/string_iteration",
+    "iterations/solving_problem_with_iteration",
 
 
     # lifetimes
@@ -187,5 +188,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                    
+    "packages_and_crates/intro_to_pub",                                     
 ]
