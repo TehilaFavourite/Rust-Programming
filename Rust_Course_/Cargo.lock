@@ -475,6 +475,10 @@ name = "static_lifetime"
 version = "0.1.0"
 
 [[package]]
+name = "string_iteration"
+version = "0.1.0"
+
+[[package]]
 name = "string_methods"
 version = "0.1.0"
 
