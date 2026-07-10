@@ -507,6 +507,10 @@ name = "supertraits_traits_inheritance"
 version = "0.1.0"
 
 [[package]]
+name = "the_collect_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_entry_method"
 version = "0.1.0"
 
