@@ -73,6 +73,7 @@ members = [
     "iterations/string_iteration",
     "iterations/solving_problem_with_iteration",
     "iterations/the_for_each_method",
+    "iterations/the_map_method", 
 
 
     # lifetimes

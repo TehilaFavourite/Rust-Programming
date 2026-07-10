@@ -1,0 +1,1 @@
+std::iter::Map<std::vec::IntoIter<{integer}>, {closure@iterations/the_map_method/src/main.rs:5:35: 5:49}>
