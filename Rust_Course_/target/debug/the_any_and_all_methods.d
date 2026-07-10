@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_any_and_all_methods: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/the_any_and_all_methods/src/main.rs

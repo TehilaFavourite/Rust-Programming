@@ -78,6 +78,7 @@ members = [
     "iterations/the_map_method_2",
     "iterations/the_filter_and_find_methods",
     "iterations/the_filter_and_find_methods_2",
+    "iterations/the_any_and_all_methods", 
 
 
     # lifetimes
