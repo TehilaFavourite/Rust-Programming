@@ -587,6 +587,10 @@ name = "the_option_enum"
 version = "0.1.0"
 
 [[package]]
+name = "the_partition_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_remove_method"
 version = "0.1.0"
 
