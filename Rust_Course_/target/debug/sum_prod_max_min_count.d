@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/sum_prod_max_min_count: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/sum_prod_max_min_count/src/main.rs

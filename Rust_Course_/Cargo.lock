@@ -503,6 +503,10 @@ name = "structs_project"
 version = "0.1.0"
 
 [[package]]
+name = "sum_prod_max_min_count"
+version = "0.1.0"
+
+[[package]]
 name = "supertraits_traits_inheritance"
 version = "0.1.0"
 
