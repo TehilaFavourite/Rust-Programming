@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_zip_method: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/the_zip_method/src/main.rs

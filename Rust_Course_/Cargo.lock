@@ -551,6 +551,10 @@ name = "the_fn_trait"
 version = "0.1.0"
 
 [[package]]
+name = "the_fold_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_for_each_method"
 version = "0.1.0"
 
@@ -591,6 +595,10 @@ name = "the_partition_method"
 version = "0.1.0"
 
 [[package]]
+name = "the_reduce_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_remove_method"
 version = "0.1.0"
 
@@ -616,6 +624,10 @@ version = "0.1.0"
 
 [[package]]
 name = "the_while_let_construct"
+version = "0.1.0"
+
+[[package]]
+name = "the_zip_method"
 version = "0.1.0"
 
 [[package]]
