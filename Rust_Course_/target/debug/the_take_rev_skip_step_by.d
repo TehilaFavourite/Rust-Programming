@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/the_take_rev_skip_step_by: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/the_take_rev_skip_step_by/src/main.rs

@@ -619,6 +619,10 @@ name = "the_string_retain_method"
 version = "0.1.0"
 
 [[package]]
+name = "the_take_rev_skip_step_by"
+version = "0.1.0"
+
+[[package]]
 name = "the_try_operator"
 version = "0.1.0"
 
