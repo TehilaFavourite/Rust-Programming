@@ -208,5 +208,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub", "iterations/the_fromIterator_trait", "iterations/project_wordle",                                               
+    "packages_and_crates/intro_to_pub", "iterations/the_fromIterator_trait", "iterations/project_wordle", "iterations/sort_and_sortby_key_method",                                               
 ]
