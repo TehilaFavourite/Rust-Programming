@@ -37,7 +37,11 @@ struct CustomerOrder {
 
 impl CustomerOrder {
     fn new(product: Product, quantity: u32, shipped: bool) -> Self {
-        Self { product, quantity, shipped }
+        Self {
+            product,
+            quantity,
+            shipped,
+        }
     }
 }
 
@@ -124,10 +128,7 @@ fn main() {
     // ---------------------------------------------------------
     println!("=== Orders above quantity threshold ===");
     let args: Vec<String> = env::args().collect();
-    let min_quantity: u32 = args
-        .get(1)
-        .and_then(|s| s.parse().ok())
-        .unwrap_or(2);
+    let min_quantity: u32 = args.get(1).and_then(|s| s.parse().ok()).unwrap_or(2);
 
     let above_threshold: Vec<&CustomerOrder> = orders
         .iter()
