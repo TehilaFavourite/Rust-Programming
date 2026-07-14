@@ -603,6 +603,10 @@ name = "the_last_nth_back_and_position"
 version = "0.1.0"
 
 [[package]]
+name = "the_lines_method"
+version = "0.1.0"
+
+[[package]]
 name = "the_map_method"
 version = "0.1.0"
 
