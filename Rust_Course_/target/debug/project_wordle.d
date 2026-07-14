@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/project_wordle: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/project_wordle/src/main.rs
