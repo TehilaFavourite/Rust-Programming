@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/reading_directory: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/iterations/reading_directory/src/main.rs
