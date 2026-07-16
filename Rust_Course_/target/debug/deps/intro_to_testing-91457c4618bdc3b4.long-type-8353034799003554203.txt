@@ -1,0 +1,1 @@
+pretty_assertions::Comparison<'_, &std::string::String, &fn(_) -> std::string::String {<std::string::String as std::convert::From<_>>::from}>

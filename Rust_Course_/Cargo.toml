@@ -91,7 +91,14 @@ members = [
     "iterations/sum_prod_max_min_count", 
     "iterations/the_last_nth_back_and_position", 
     "iterations/the_take_rev_skip_step_by",
-    
+    "iterations/the_fromIterator_trait", 
+    "iterations/project_wordle", 
+    "iterations/sort_and_sortby_key_method", 
+    "iterations/the_lines_method", 
+    "iterations/command_line_arguments_1", 
+    "iterations/command_line_argument_2", 
+    "iterations/reading_directory", 
+    "iterations/iteration_project", 
 
 
     # lifetimes
@@ -205,8 +212,12 @@ members = [
     "hashmaps/the_entry_method",
     "hashmaps/the_remove_method",
 
+    # testing
+    "testing/intro_to_testing", 
+
+
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub", "iterations/the_fromIterator_trait", "iterations/project_wordle", "iterations/sort_and_sortby_key_method", "iterations/the_lines_method", "iterations/command_line_arguments_1", "iterations/command_line_argument_2", "iterations/reading_directory", "iterations/iteration_project",                                               
+    "packages_and_crates/intro_to_pub",                                               
 ]
