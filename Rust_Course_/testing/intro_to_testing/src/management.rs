@@ -28,6 +28,14 @@ mod tests {
     use super::*;
     use pretty_assertions::assert_eq;
 
+    struct DummyVenue {}
+
+    impl TicketSeller for DummyVenue {
+        fn sell_ticket(&mut self) {
+        
+        }
+    }
+
     #[test]
     fn venue_management_can_hire_manager() {
         let movie_theater = MovieTheater::new();
