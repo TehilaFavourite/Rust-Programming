@@ -213,7 +213,8 @@ members = [
     "hashmaps/the_remove_method",
 
     # testing
-    "testing/intro_to_testing", 
+    "testing/intro_to_testing",
+    "testing/intro_to_testing/project",
 
 
     # packages_and_crates

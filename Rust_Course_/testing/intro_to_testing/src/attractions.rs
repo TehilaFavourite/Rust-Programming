@@ -3,15 +3,15 @@ pub trait TicketSeller {
 }
 
 #[derive(Debug, Eq, PartialEq)]
-struct Museum {
-    paintings: Vec<String>,
-    revenue: u32,
+pub struct Museum {
+    pub paintings: Vec<String>,
+    pub revenue: u32,
 }
 
 #[derive(Debug)]
 pub struct MovieTheater {
-    movies: Vec<String>,
-    sales: u32,
+    pub movies: Vec<String>,
+    pub sales: u32,
 }
 
 impl MovieTheater {
@@ -26,7 +26,7 @@ impl MovieTheater {
         self.sales += 15;
     }
 
-    fn add_movie(&mut self, movie: &str) {
+    pub fn add_movie(&mut self, movie: &str) {
         self.movies.push(movie.to_string());
     }
 }
@@ -40,14 +40,36 @@ impl TicketSeller for MovieTheater {
 impl Museum {
     const MAXIMUM_CAPACITY: usize = 3;
 
-    fn new() -> Self {
+    /// creates a new museum
+    ///
+    /// # Examples
+    /// ```
+    /// use intro_to_testing::attractions::Museum;
+    ///
+    /// let museum = Museum::new();
+    /// let empty_vec: Vec<String> = Vec::new();
+    /// assert_eq!(museum.paintings, empty_vec);
+    /// assert_eq!(museum.revenue, 0);
+    /// ```
+    pub fn new() -> Self {
         Self {
             paintings: vec![],
             revenue: 0,
         }
     }
 
-    fn buy_painting(&mut self, painting: &str) {
+    /// Buys a painting for the museum
+    ///
+    /// # Examples
+    /// ```
+    /// use intro_to_testing::attractions::Museum;
+    ///
+    /// let mut museum = Museum::new();
+    /// museum.buy_painting("Mona Lisa");
+    /// assert_eq!(museum.paintings, vec!["Mona Lisa".to_string()]);
+    /// ```
+
+    pub fn buy_painting(&mut self, painting: &str) {
         if self.paintings.len() >= Self::MAXIMUM_CAPACITY {
             panic!("Museum does not have storage space for another painting")
         }
@@ -55,7 +77,7 @@ impl Museum {
         self.paintings.push(painting.to_string());
     }
 
-    fn has_impressive_collection(&self) -> bool {
+    pub fn has_impressive_collection(&self) -> bool {
         self.paintings.len() >= 2
     }
 }

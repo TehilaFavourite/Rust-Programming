@@ -1,0 +1,7 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/deps/pin_project_lite-be6884d87439ebf7.d: /Users/teheelaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs
+
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/deps/libpin_project_lite-be6884d87439ebf7.rlib: /Users/teheelaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs
+
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/deps/libpin_project_lite-be6884d87439ebf7.rmeta: /Users/teheelaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs
+
+/Users/teheelaa/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pin-project-lite-0.2.17/src/lib.rs:

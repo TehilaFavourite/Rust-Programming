@@ -1,0 +1,1 @@
+rd_("Adcreates a new museumAoReturns the argument unchanged.00BaCalls <code>U::from(self)</code>.00AnBuys a painting for the museum")
