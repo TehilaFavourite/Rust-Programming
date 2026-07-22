@@ -613,6 +613,13 @@ name = "project_lifetimes"
 version = "0.1.0"
 
 [[package]]
+name = "project_randomness"
+version = "0.1.0"
+dependencies = [
+ "rand",
+]
+
+[[package]]
 name = "project_wordle"
 version = "0.1.0"
 dependencies = [

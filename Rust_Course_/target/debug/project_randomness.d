@@ -1,0 +1,1 @@
+/Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/target/debug/project_randomness: /Users/teheelaa/tehila_workspace/rust/Rust-Programming/Rust_Course_/randomness_with_rand_crate/project_randomness/src/main.rs
