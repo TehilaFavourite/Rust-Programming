@@ -214,6 +214,7 @@ members = [
 
     # Randomness with Rand Crate
     "randomness_with_rand_crate/into_to_rand_crate",
+    "randomness_with_rand_crate/randomizing_vector_elemets_with_shuffle_method",
 
     # testing
     "testing/intro_to_testing",
@@ -224,5 +225,5 @@ members = [
     # packages_and_crates
     "packages_and_crates/fitness",
     "packages_and_crates/intro_to_module",
-    "packages_and_crates/intro_to_pub",                                                 
+    "packages_and_crates/intro_to_pub",                                                  
 ]

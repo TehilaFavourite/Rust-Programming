@@ -668,6 +668,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "randomizing_vector_elemets_with_shuffle_method"
+version = "0.1.0"
+dependencies = [
+ "rand",
+]
+
+[[package]]
 name = "read_file_content"
 version = "0.1.0"
 
